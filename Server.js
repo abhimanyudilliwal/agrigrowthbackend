@@ -8,7 +8,7 @@ const Signup =require("./Route/signup")
 const Form =require("./Route/form")
 const Ownland =require("./Route/ownland")
 const Elseland=require("./Route/elseland")
-require(".dotenv").config()
+
 
 
 
@@ -42,7 +42,7 @@ app.listen(Port, (err) => {
    if (err) {
       console.log(err)
    } else {
-      // data base connection 
+      
       dbCon
       console.log('Server is listening at ' + ':' + Port);
    }
